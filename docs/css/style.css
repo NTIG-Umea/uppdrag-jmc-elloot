@@ -147,7 +147,7 @@ a {
 }
 
 .menu .menu__container .menu__link::after {
-  content: "";
+  content: '';
   position: absolute;
   width: 0;
   -webkit-transition: width 0.3s cubic-bezier(0.18, 0.89, 0.32, 1.28);
