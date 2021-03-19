@@ -85,7 +85,7 @@ let desktopQuery = window.matchMedia('(min-width: 992px)');
 })();
 
 (() => {
-  const skillArray = document.querySelectorAll('#skillTitle');
+  const skillArray = document.querySelectorAll('.card__skill-title');
   let expanded = false;
 
   skillArray.forEach(function (skill) {
